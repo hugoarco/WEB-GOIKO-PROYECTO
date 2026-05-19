@@ -1,0 +1,827 @@
+html{
+    scroll-behavior: smooth;
+}
+    body { 
+background: url(https://www.goiko.com/es/wp-content/uploads/2019/12/Rubine.jpg);
+    }
+.Goikooo{
+text-align: center;
+background: url(https://www.goiko.com/es/wp-content/uploads/2022/11/Alfafar-22-scaled.jpg);
+}
+.Titulofooter{
+    background-color: rgb(27, 29, 29);
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.hero-goiko{
+    background: url('https://www.goiko.com/es/wp-content/uploads/2022/11/Alfafar-22-scaled.jpg');
+    background-size:cover ;
+    min-height: 400px;   
+    padding: 80px 20px;
+    text-align: center;
+    background-position : center;
+    }
+
+.Totuloherogoiko{
+font-size: 37px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4_3mi_GFtAl6IwkMSVhJridGV-EJ8M5JoSQ&s);
+color: transparent;
+animation: animate 20s linear infinite;
+background-size: cover;
+background-clip: text;
+
+}
+
+@keyframes animate{
+    to{
+background-position: -500px;
+    }
+}
+
+
+
+.Videogoiko1{
+    width: 4000px;
+    height: 170px;
+    object-fit: cover;     
+
+}
+
+.Videogoiko2{
+    width: 4000px;
+    height: 170px;
+    object-fit: cover;
+}
+
+.Videogoiko3{
+    width: 4000px;
+    height: 170px;
+    object-fit: cover;
+}
+
+
+
+.Totuloherogoiko:hover{
+transform: scale(1.1);
+}
+
+.Parrafogoiko{
+  font-size: 27px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-shadow: 2px 2px 4px black;
+color: rgb(234, 236, 245);
+transition: 0.3s;
+}
+
+.Parrafogoiko:hover{
+transform: scale(1.1);
+}
+
+
+
+
+    #MenuNavegación {
+  text-align: center; /*Alineación del texto*/
+  background-color: rgba(18, 19, 105, 0.603);   /*Color de Fondo*/
+  font-size:14px; /*Tamaño de la letra*/
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  /*Fuente de la letra*/
+  display: flex; /*Activa flebox*/
+    justify-content: center;
+    align-items: center;
+  border: solid;  /*Tipo de Borde */
+  background: linear-gradient(rgb(139, 154, 223), black);  /*Degradado de fondo con dos colores */
+                     }
+
+    #MenuNavegación a {
+    color: white; /*Color de normal sin pasar el cursor*/
+    text-decoration: none; /*Quita Rayas feas de Texto*/
+    text-shadow: 1px 1px 5px black; /*Crea una sombra en el texto*/
+    font-weight: bold;
+    letter-spacing: 1px; /*Espacio entre las letras*/
+     margin: 0 10px; /*Separación entre textos*/
+     transition: color 0.3s ease; /*Va a haber una transición de color de 0.3s*/
+     transition: 0.5s ; /*Va a haber una transicion de 0.5s*/
+                     }
+/*Para una etiqueta class con tres estilos*/
+.destacado { color: red; }
+.grande { font-size: 20px; }
+.sombra { text-shadow: 2px 2px 5px gray; }
+
+
+         #MenuNavegación a:hover {
+        color: black; /*Color al  pasar el cursor con la transición de antes*/
+        transform: scale(1.1); /* aumenta un 10% */
+        transform: scaleY(1.5); /*La segunda Transición realizada anteriormente*/
+        }
+
+        #MenuNavegación .Logo{
+         width: 60px;   /*Anchura Imagen*/
+         height: 80px; /*Altura Imagen*/
+         margin-right: 140px;  /*Altura Imagen*/
+        transition: transform 0.3s ease; /* transición suave */
+                             } 
+
+        #MenuNavegación .Logo:hover{
+            transform: scale(1.2); /* agranda un 10% */ 
+                                    }
+
+               #Inicioparrafo {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: black; /**/
+            max-width: 600px;    /* ancho de la columna */
+            margin-left: auto;   /* ajusta este valor para moverlo más a la izquierda - ahora auto para centrar */
+            margin-right: auto;  /* añadido para centrar */
+            text-align: center;  /* ahora centrado */
+             line-height: 1.6;    /* para mejor lectura */
+             transition: 0.4s;
+                              }
+
+        #Inicioparrafo:hover {
+            transform: scaleX(1.4);
+      
+                              }
+            #Inicio{
+              background-color: #6f95cf;
+               opacity: 0.7;
+               margin-top: 30px; 
+                padding-top: 20px;
+                text-align: center; /* Para centrar el article */
+
+            } 
+
+            #TituloInicio {
+                background-color: rgb(30, 93, 175);
+                text-align: center; /* Alineación texto centro */
+                font-size: 24px; /* Tamaño de letra*/
+                color: rgb(82, 142, 190);/* Color de la letra  */
+                  margin-top: 0;
+                padding: 17px 0;
+             transition: transform 0.5s ease-in-out; /*Declara que va a haber una transición*/
+
+                        }
+
+            #TituloInicio:hover {
+             transform: rotate(30deg) scale(1.1);
+            }
+           /* EFECTO ARTICLE */
+           article {
+            position: relative;
+            width: 250px;  /* Ancho del contenedor */
+            height: 250px; /* Alto del contenedor - AÑADIDO */
+            margin: 30px auto; /* Centrado */
+            display: inline-block; /* Para centrar */
+            transition: all 0.3s ease; /* Transición suave */
+           }
+
+           /* Primera imagen  */
+           article img:first-child  {
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Sombra mejorada */
+            border-radius: 10px; /* Bordes redondeados */
+            object-fit: cover; /* La imagen cubre el espacio */
+            width: 100%; /* Ocupa todo el ancho */
+            height: 100%; /* Ocupa todo el alto - AÑADIDO */
+            position: absolute; /* Posicionamiento absoluto */
+            top: 0; /* Arriba del todo */
+            left: 0; /* Izquierda del todo */
+           }
+
+           /* Segunda imagen  */
+           article img:last-child  {
+       position: absolute; /* Posicionamiento absoluto */
+       width: 200px; /* Ancho de la imagen */
+       height: 200px; /* Alto de la imagen - AÑADIDO */
+       bottom: -20px; /* Posicionada abajo */
+       right: -20px; /* Posicionada a la derecha */
+       object-fit: cover; /* La imagen cubre el espacio */
+       border-radius: 10px; /* Bordes redondeados */
+       box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Sombra */
+       transition: all 0.5s ease; /* Transición más lenta para efecto */
+       opacity: 0; /* Inicialmente invisible */
+       transform: translate(50px, 50px); /* Posición inicial fuera */
+           }
+
+           /* Efecto al pasar el ratón */
+           article:hover  {
+            transform: rotate(5deg) scale(1.05); /* Gira y agranda */
+            }
+
+            /* Efecto en la segunda imagen al hacer hover */
+            article:hover img:last-child {
+                opacity: 1; /* Se hace visible */
+                transform: translate(0, 0); /* Vuelve a su posición */
+            }
+                
+             #MenuTexto{
+             
+                background-color: rgb(42, 127, 238);
+                text-align: center; /* Alineación texto centro */
+                font-size: 24px; /* Tamaño de letra*/
+                color: black;/* Color de la letra  */
+                        }
+
+                 #TituloSobreNosotros {
+                    background-color: rgb(87, 87, 192); /*Color de fondo de la web */
+                    text-align: center; /*Alineación texto al centro*/
+                    font-size: 20px; /*Tamaño de la letra*/
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Fuente de la letra */ 
+                    transition: 0.5s;
+                }
+
+                        #TituloSobreNosotros:hover {
+                            transform: rotate(350deg); /**/
+                                         }
+
+                 #tituloFAQ {
+                    background-color: darkslateblue; /*Color de fondo morado*/
+                    text-align: center; /*Alineación al cetnro*/
+                    font-size: 20px; /*Fuente de la letra*/
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Tipo de letra*/
+                      transition: 0.3s; /*Declara la transición*/
+                }
+                 #tituloFAQ:hover {
+                    transform: scaleX(1.5); /*La transición que queremos lograr*/
+                }
+                
+
+
+
+
+                #RedesSocialesTitulo {
+            background-color: rgb(104, 104, 235); /*Fondo de color azul*/
+            text-align: center; /*Alineación tecxto al centro*/
+            transition: 0.3s;              
+                        }
+            #RedesSocialesTitulo:hover {
+            transform: scale(1.1) ;      /* La Transcion uqw quereno*/   
+                        }
+
+
+                 #TituloPlatos {
+                    text-align: center; /*Alineación del texto al centro*/
+                    background-color: rgb(5, 83, 156); /*Fondo de colro azul */
+                    transition: 0.3s; /*Declara que va a haber una transición de 0.3s*/
+                }
+                       #TituloPlatos:hover {
+                     transform: scale(1.1) ;
+                                  }
+
+                                      
+                    #TituloReseñas {
+                    text-align: center; /*Alineación del texto al centro*/
+                  transition: 0.2s; /*Transición de 0.2s*/
+                        }
+
+                 #TituloReseñas:hover {
+                     transform: rotate(360deg);
+                        }
+
+                        #Menu  {
+                            background-color: rgba(80, 96, 235, 0.74); /*Fondo de color azul*/
+                            }
+
+                             #SobreNosotros  {
+                                background-color: #146ca0; /*Fondo de color azul*/
+                                             }
+#RedesSociales {
+background-color: rgb(28, 97, 224);
+
+                    }
+                            
+ /* GRID DEL MENÚ */
+ .Menugrid {
+            display: grid; /* Activa CSS Grid */
+            grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
+            gap: 20px; /* Espacio entre elementos */
+            padding: 20px; /* Espacio interno */
+            }
+
+        /* IMÁGENES DE HAMBURGUESAS */
+        .hamburguesaimg {
+            width: 100%; /* Ocupa todo el ancho del contenedor */
+            height: 200px; /* Altura fija para todas */
+            object-fit: cover; /* Recorta la imagen para que encaje */
+            border-radius: 10%; /* Bordes redondeados */
+            transition: 0.5s;
+            
+        }
+
+           .hamburguesaimg:hover {
+            transform: rotateX(360deg); /*Declara la transición */
+   
+            
+        }
+        
+        
+        /* CADA HAMBURGUESA EN EL GRID */
+              .hamburguesa {
+            text-align: center; /* Texto centrado */
+            background: #f0e2e2; /* Color de fondo */
+            padding: 15px; /* Espacio interno */
+            border-radius: 10px; /* Bordes redondeados */
+            color: rgb(36, 33, 33); /* Color del texto */
+            
+        }
+
+        /* Añadir efecto hover a las hamburguesas */
+        .hamburguesa:hover {
+            transform: translateY(-5px); /* Se levanta un poco */
+            transition: transform 0.3s ease; /* Transición suave */
+        }
+        
+        /* ESTILOS PARA LOS TÍTULOS DE HAMBURGUESAS (CLASE en lugar de ID) */
+        .titulo-hamburguesa {
+            color: #381177; /* Color naranja GOIKO */
+            font-size: 1.3em; /* Tamaño de fuente */
+            margin: 10px 0; /* Márgenes */
+            text-align: center; /* Centrado */
+            transition: 0.5s;
+        }
+
+            .titulo-hamburguesa:hover {
+            transform: translateX(100px);
+  
+        }
+        
+        /* ESTILOS PARA LOS PRECIOS (CLASE en lugar de ID) */
+        .precio-hamburguesa {
+            color: #4a7fee; /* Color azul */
+            font-size: 1.2em; /* Tamaño de fuente */
+            font-weight: bold; /* Negrita */
+            text-align: center; /* Centrado */
+            margin: 10px 0; /* Márgenes */
+            transition: 0.4s;
+        }
+
+        .precio-hamburguesa:hover {
+            transform: rotate3d( 0,0,1,30deg);
+     
+        }
+
+        #ParrafoSobreNosotroS {
+            font-size: 17px;
+                             }
+            
+            #MenuGrid2{
+                display: grid; /*Declara Css grid*/
+                grid-template-columns: 250px 1fr; /* columna vertical + horizontal */
+                grid-template-rows: auto;
+                gap: 20px;
+                padding: 20px; /*Espacio  entre las letras*/
+                
+            }
+
+            /* COLUMNA VERTICAL */
+            .columna-vertical {
+                background-color: rgb(27, 18, 161); /*Color de fondo azul*/
+                padding: 15px;
+                font-weight: bold;
+                text-align: center;/*Alinea el texto con el centro*/
+            }
+
+            /* CONTENIDO HORIZONTAL */
+            .contenido-horizontal {
+                background-color: rgba(12, 93, 146, 0.596); /*Color de fondo*/
+                padding: 20px; /*Espacio entre letras*/
+                line-height: 1.6;
+            }
+                .MenuGrid3 {
+                display: grid; /*Activa Css Grid*/
+                grid-template-columns: repeat(3, 1fr); /* repite 1 columna 3 cuadrados*/
+                padding: 20px;
+                gap: 20px;
+                background-color: deepskyblue; /*Color de fondo*/
+                
+                        }
+                        .Pregunta{
+                            border-radius: 20%; /*Hace el borde mas redondito el principal*/
+                            padding: 20px; /*Espacio de las letras*/
+                            background-color: cadetblue; /*Color de fonso azul*/
+                            transition: 0.5s; /*declara la transicion*/
+                        }
+
+                .Pregunta:hover   {
+                      transform: translate(10px) ; /*La transición que queremos lograr*/
+                        }
+
+
+            .ParrafoTitulo  {
+                background-color: aliceblue; /*Color de fondo que aparece sobre la de parrafo*/
+                    color: rgb(59, 69, 78); /*Color de la letra del parrafo*/
+                text-align: center; /*Alineación texto al centro*/
+                padding: 20px; /*Espacio letras*/
+                    transition: transform 0.3s ; /*Declara la Transición*/
+                }
+
+                       .ParrafoTitulo:hover {
+                        transform: scale(1.3); /*La Transición que quires lograr*/
+        
+                }
+
+                .PreguntaTitulo {
+                    color: blanchedalmond; /*Color blanco*/
+                    text-align: center; /*Alineación del texto al centor*/
+                    background-color: rgb(49, 112, 170); /*Color de fondo*/
+                    border-radius: 10%; /*Hace fondo mas redondito*/
+                    transition: 0.4s; /*Declara una transicion*/
+                }
+                    .PreguntaTitulo:hover{
+                          transform: scaleX(1.5); /*Declara una transción*/
+                }
+
+
+                    .ImagenPregunta {
+                        width: 100%; /* Ocupa todo el ancho del contenedor */
+                                height: 200px; /* Altura fija para todas */
+                                object-fit: cover; /* Recorta la imagen para que encaje */
+                                border-radius: 10%; /* Bordes redondeados */
+                                transition: 0.4s
+                    }
+       .ImagenPregunta:hover {
+       transform: scale(1.3);
+        
+                    }
+                    
+  .ParrafoTitulo  a:hover {
+   text-align: center; /* Texto centrado */
+            background: #f0e2e2; /* Color de fondo */
+            padding: 15px; /* Espacio interno */
+            border-radius: 10px; /* Bordes redondeados */
+            color: rgb(36, 33, 33); /* Color del texto */
+                }
+                          
+.MenuGrid4 {
+        display: grid; /* Activa CSS Grid */
+            grid-template-columns: repeat(4, 1fr); /* 3 columnas iguales */
+            gap: 20px; /* Espacio entre elementos */
+            padding: 20px; /* Espacio interno */
+            box-sizing: border-box;
+    
+}
+.TituloGoiko {
+  text-align: center; /*Alineación del texto al centro*/
+  padding: 20px;
+  background-color: rgb(17, 44, 194); /*Color de fondo*/
+  transition: 0.5s; /* Declara  Transición de 0.5s*/
+
+}
+
+.TituloGoiko:hover {
+    transform: scale(1.3);
+
+
+}
+.ParrafoGoiko {
+                color: rgb(59, 69, 78); /*Color Gris fondo*/
+                text-align: center; /*Alineación del texto al centro*/
+                padding: 20px; /*Espacio entre letras*/
+                transition: 0.4s; /* Declara una transición*/
+}
+
+.ParrafoGoiko:hover{
+                color: rgb(59, 69, 78);
+                text-align: center; /*Alineación del texto al centro*/
+                padding: 20px; /*Espacio entre letras*/
+               transform: translateX(100px); /*La transición que queremos lograr*/
+}
+
+.ImagenGoiko {
+ width: 100%; /* Ocupa todo el ancho del contenedor */
+            height: 200px; /* Altura fija para todas */
+            object-fit: cover; /* Recorta la imagen para que encaje */
+            border-radius: 10%; /* Bordes redondeados */
+            transition: 3ms; /*Declara que va a haber un transicion*/
+             
+    }
+    
+    .ImagenGoiko:hover{
+        transform: rotate(350deg); /*La transición que queremos lograr*/
+             
+    }
+
+.Goiko1 {
+    background-color: beige; /*color de fondo blanco*/
+    border-radius: 10%; /*Hace borde más redondito*/
+    }
+
+
+
+    .Grid5{
+    display: grid;/*Actica css grid*/
+     grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+     padding: 20px; /*Espacio ebtre letras*/
+     gap: 20px;
+ 
+    }
+
+    .ImagenGrid5 {
+        width: 100%; /*Ocupa todo el conteneor*/
+        object-fit: cover; /**/
+        border-radius: 20%; /*Borde mas redondito*/
+        transition: 3s; /*Declara que va a haber una transición*/
+    }
+     .ImagenGrid5:hover {
+   transform: rotate(360deg); /*La transición que queremos lograr*/
+    }
+
+    .TituloGrid5 {
+        text-align: center; /*Alineación del texto al centro*/
+        padding: 20px; /*Espacio entre letras*/
+     background-color: rgb(36, 39, 228)2, 24, 21;  /*Color de fondo azul*/
+        border: 30%;
+      transition: 3ms;
+  
+    }
+
+   .TituloGrid5:hover {
+    transform: translate(100px); /*Mueve texto hacia un lado*/
+
+    }
+
+
+    .Reseñas {
+        background-color: rgb(121, 156, 250); /*Color de Fondo*/
+
+    }
+    .ParrafoGrid5 {
+    color: black; /*Color parrafo*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Fuente de la letra*/
+    text-align: center; /*Alineación del texto al centro*/
+    background-color: rgb(229, 231, 231); /*Fondo de color Blanco*/
+    border-radius: 4%; /*Hace el borde más redondito*/
+    transition: 4s; /*Declara una Transición*/
+}
+
+    .ParrafoGrid5:hover {
+transform: rotateX(360deg); /*La transición que queremos lograr*/
+
+        
+
+        }
+
+    #RESEÑAS{
+        background-color: cyan; /*Color de fondo*/
+
+        }
+        #Platos {
+            background-color: rgb(33, 7, 54); /*Color de fondo*/
+
+            }
+
+
+        .MenuGridPlatos {
+           display: grid; /*Activa css Grid*/
+           grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+          padding: 20px;  /*Espacio entre letras*/
+          gap: 20px;
+
+        }
+
+        .PlatosGrid{
+            background-color: rgb(71, 71, 175); /*Color de fondo*/
+            border-radius: 10%; /*Hace borde más redondito*/
+            
+        }
+        .TituloPlatosGrid{
+            text-align: center; /*Alineación del texto al centro*/
+            background-color: blue; /*Color de fondo azul*/
+            transition: 0.7s; /*Transición*/
+
+                     }
+
+            .TituloPlatosGrid:hover{
+         transform: rotateY(360deg); /*La transición que queremos lograr*/
+                     }
+
+ .PlatosGridParrafo {
+
+  background-color: rgb(92, 92, 230); /*Color de fondo*/
+  font-family: 'Courier New', Courier, monospace; /*Fuente de la letra*/
+  font-size: 16px; /*Tamaño de la letra*/
+  border-radius: 10%; /*Hace borde más redondito*/
+transition: 0.4s; /*Declara una transición*/
+}
+
+ .PlatosGridParrafo:hover {
+    transform: translateX(100px); /*La transición que queremos lograr*/
+
+}
+
+.ImagenGridPlatos {
+     width: 100%; /*Ocupa el 100% del grid*/
+        object-fit: cover; /*Ocupa todo*/
+        border-radius: 10%;  /*Borde más redondito*/
+        transition: 0.4s; /*Declara que va a haber una transición*/
+}
+
+.ImagenGridPlatos:hover {
+transform: rotate(360deg); /*La transición que queremos lograr*/
+}
+
+
+#TituloFormularios{
+    text-align: center; /*Alineación del texto al centro*/
+    background-color: blueviolet; /*Color de fondo violeta*/
+    transition: 0.5s; /*Declara transición*/
+
+}
+
+#TituloFormularios:hover{
+transform: rotate(360deg); /*La transición que queremos lograr*/
+
+}
+
+.Menugrid7{
+ display: grid; /*Activa CSSGRID*/
+     grid-template-columns: repeat(3, 1fr); /* 4 columnas iguales */
+     padding: 20px;
+     gap: 20px;
+ 
+}
+
+
+
+
+
+    footer {
+        background-color: rgba(18, 19, 105, 0.603);
+        font-size: 14px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8%;
+        border: solid;
+        background: linear-gradient(rgb(139, 154, 223), black);
+        padding: 15px 0;
+        margin-top: 40px;
+    }
+    
+    .footer-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 19%;
+    }
+    
+    .footer-container a {
+        color: white;
+        text-decoration: none;
+        text-shadow: 1px 1px 5px black;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin: 0 10px;
+        transition: color 0.3s ease;
+    }
+    
+    .footer-container a:hover {
+        color: black;
+        transform: scale(1.1);
+    }
+    
+    .footer-logo-img {
+        width: 60px; /*Tamaño de ancho */
+        height: 80px; /*Tamaño de largo*/
+        margin-right: 140px;
+        transition: transform 0.3s ease; /*Activa transición 0.3s*/
+    }
+    
+    .footer-logo-img:hover {
+        transform: scale(1.2); /*La transición que queremos lograr*/
+    }
+    
+  
+
+    .MenuGridFormulario {
+        display: grid; /*Activa Css Grid*/
+        gap: 20px;
+        padding: 10px;
+        justify-items: center; /*Alinea los elenmentos al centro*/
+        grid-template-columns: repeat(1, 1fr); /* 1 columnas igual */
+        justify-content: center;
+        background-color: rgb(10, 59, 122);/*Fondo de color azul*/
+        border-radius: 10%; /*Hace borde mas redondito*/
+
+    }
+    .Formulario{
+    background: #146ca0; /*Color de fondo azul*/
+   box-sizing: border-box;
+   border-radius: 20px; /*Hace fondo mas redondito*/
+   padding: 20px; /*Espacio entre letras*/
+    
+    }
+    text{
+        color: #131618; /*color de la letra*/
+        text-align: center; /*Alineación del texto al centro*/
+        font-family: 'Courier New', Courier, monospace; /*Fuente del tipo de letra*/
+        font-size: 17px; /*Tamaño de la letra*/
+
+    }
+    
+    .ValoresNutricionales {
+        background-color: lightskyblue;
+        border: #131618; /*Borde de color negro*/
+        border-style: initial;
+        transition: 0.3s; /*Declara una transicion de 0.3s*/
+    
+            }
+
+        
+
+.ValoresNutricionalestext{
+    background-color: #4a7fee;  /*Color de Fondo */
+    text-align: center; /*Alineación del Texto al Centro*/
+    padding: 20px; /*Espacio Entre Letras*/
+    color: black; /*Color del Texto*/
+    font-size: 13px; /*Tamaño de la letra*/
+       transition: 0.3s;
+    
+                         }
+
+        .ValoresNutricionalestext:hover{
+        transform: scale(1.1); /*El efecto de Transicion que queremos lograr*/
+    
+            }
+.Tabla1ValorNutricionalHamburguesa{
+    background-color: rgb(102, 134, 194); /*Color de fondo */
+   margin-left: auto; /*Sirve para Alienar la Tabla al Centro*/
+  margin-right: auto; /*Sirve para Alinear la Tabla al centro*/
+}
+     
+    .Columna1{
+        background-color: coral; /*Color de fondo columna 1*/
+
+     }
+
+     #ValoresNutricionales{
+
+        background-color: darkblue; /*Color de fondo columna 2*/
+     }
+
+     .Columna3{
+        background-color: darkcyan; /*Color de fondo columna 2*/
+
+     }
+
+     .Columna4{
+        background-color: gold; /*Color de fondo columna 3*/
+     }
+
+ td, th {
+  padding: 10px;
+  border-radius: 10%;
+  border-color: #381177;
+  text-align: center;
+}
+     
+     
+.ImagenesTablas{
+    width: 100%; /*Ocupe todo el cuadro de ancho*/
+    height: 100%; /*Ocupe todo el cudro el alto*/
+    object-fit: cover;
+    display: block;
+
+
+                }
+@keyframes efectowebentrada {
+    to {
+        transform: scale(1.02) translateY(-10px);
+        opacity: 1;
+    }
+}
+
+@keyframes salir-vista {
+    to {
+        transform: scale(0.98);
+        opacity: 0.7;
+    }
+}
+
+#Inicio:hover, /*Efecto al pasar el raton */
+#Menu:hover, /*Efecto al pasar el raton */
+#SobreNosotros:hover, /*Efecto al pasar el raton */
+#FAQ:hover, /*Efecto al pasar el raton */
+#RedesSociales:hover, /*Efecto al pasar el raton */
+#Platos:hover, /*Efecto al pasar el raton */
+#Reseñas:hover,/*Efecto al pasar el raton */
+#Formularios:hover, /*Efecto al pasar el raton */
+#ValoresNutricionales:hover { /*Efecto al pasar el raton */
+    animation: efectowebentrada 0.6s ease-out forwards;
+    z-index: 10; /* Para que quede encima */
+}
+
+/* AÑADE ESTO: Cuando NO hay hover */
+#Inicio:not(:hover),
+#Menu:not(:hover),
+#SobreNosotros:not(:hover),
+#FAQ:not(:hover),
+#RedesSociales:not(:hover),
+#Platos:not(:hover),
+#Reseñas:not(:hover),
+#Formularios:not(:hover),
+#ValoresNutricionales:not(:hover) {
+    animation: salir-vista 0.4s ease-out forwards;
+}
